@@ -1,5 +1,6 @@
 ## Modify by Fork
 > select "bglam".* from "bglam" where "bglam"."id" = 12 and "bglam"."name" = 'junho' limit 1
+
 show complete query by binding.
 
 # knex-logger
