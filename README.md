@@ -1,3 +1,7 @@
+## Modify by Fork
+> select "bglam".* from "bglam" where "bglam"."id" = 12 and "bglam"."name" = 'junho' limit 1
+show complete query by binding.
+
 # knex-logger
 
 [![NPM version][npm-image]][npm-url] [![Build status][travis-image]][travis-url] [![Code Climate][codeclimate-image]][codeclimate-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][david-image]][david-url] [![devDependencies][david-dev-image]][david-dev-url]
@@ -24,7 +28,6 @@ var app = express();
 
 app.use(knexLogger(knex));
 ```
-
 
 ## License
 
