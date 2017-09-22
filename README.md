@@ -1,7 +1,7 @@
-## Modify by Fork
-> select "bglam".* from "bglam" where "bglam"."id" = 12 and "bglam"."name" = 'junho' limit 1
+## Modified by Fork
+Show complete query by binding like below.
 
-show complete query by binding.
+> select "bglam".* from "bglam" where "bglam"."id" = 12 and "bglam"."name" = 'junho' limit 1
 
 # knex-logger
 
